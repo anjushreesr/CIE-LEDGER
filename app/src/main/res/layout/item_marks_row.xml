@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginBottom="6dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="#1A1A2E"
+    app:strokeWidth="1dp"
+    app:strokeColor="#2D2D50">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+
+        <!-- Serial No -->
+        <TextView
+            android:id="@+id/tvSlNo"
+            android:layout_width="36dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textSize="12sp"
+            android:textColor="#718096"
+            android:gravity="center"/>
+
+        <!-- USN -->
+        <EditText
+            android:id="@+id/etUsn"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="USN"
+            android:textColorHint="#4A5568"
+            android:textSize="11sp"
+            android:textColor="#FFFFFF"
+            android:inputType="textCapCharacters"
+            android:paddingStart="8dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- Name -->
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="Name"
+            android:textColorHint="#4A5568"
+            android:textSize="11sp"
+            android:textColor="#FFFFFF"
+            android:inputType="textCapWords"
+            android:paddingStart="8dp"
+            android:paddingEnd="4dp"
+            android:singleLine="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- Internal 1 -->
+        <EditText
+            android:id="@+id/etInternal1"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="0"
+            android:textColorHint="#4A5568"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- Internal 2 -->
+        <EditText
+            android:id="@+id/etInternal2"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="0"
+            android:textColorHint="#4A5568"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- LA1 -->
+        <EditText
+            android:id="@+id/etLa1"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="0"
+            android:textColorHint="#4A5568"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- LA2 -->
+        <EditText
+            android:id="@+id/etLa2"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="0"
+            android:textColorHint="#4A5568"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- Lab (Integrated only) -->
+        <EditText
+            android:id="@+id/etLab"
+            android:layout_width="56dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="0"
+            android:textColorHint="#4A5568"
+            android:textSize="13sp"
+            android:textColor="#10B981"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:visibility="gone"/>
+
+        <!-- Attendance -->
+        <EditText
+            android:id="@+id/etAttendance"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_input"
+            android:hint="0"
+            android:textColorHint="#4A5568"
+            android:textSize="13sp"
+            android:textColor="#F59E0B"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- CIE Total (read-only) -->
+        <TextView
+            android:id="@+id/tvCIE"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="0.0"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#10B981"
+            android:gravity="center"
+            android:background="@drawable/bg_input"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"/>
+
+        <!-- Status -->
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_marginStart="4dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

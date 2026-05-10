@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="cie_violet">#6C3DD3</color>
+    <color name="cie_violet_dark">#4A2A9E</color>
+    <color name="cie_violet_light">#9B72F0</color>
+    <color name="cie_indigo">#4338CA</color>
+
+    <!-- Accents -->
+    <color name="cie_green">#10B981</color>
+    <color name="cie_amber">#F59E0B</color>
+    <color name="cie_red">#F43F5E</color>
+    <color name="cie_cyan">#06B6D4</color>
+
+    <!-- Dark Backgrounds -->
+    <color name="cie_bg">#0F0F1A</color>
+    <color name="cie_bg_card">#1A1A2E</color>
+    <color name="cie_bg_surface">#252540</color>
+    <color name="cie_bg_input">#1E1E35</color>
+
+    <!-- Text -->
+    <color name="cie_text">#FFFFFF</color>
+    <color name="cie_text_sub">#A0AEC0</color>
+    <color name="cie_text_hint">#718096</color>
+
+    <!-- Divider -->
+    <color name="cie_divider">#2D2D50</color>
+
+    <!-- Status -->
+    <color name="cie_eligible_bg">#0D2E1F</color>
+    <color name="cie_not_eligible_bg">#2E0D1A</color>
+</resources>

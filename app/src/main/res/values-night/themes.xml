@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.CIELedger" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/cie_violet</item>
+        <item name="colorOnPrimary">@color/cie_text</item>
+        <item name="android:windowBackground">@color/cie_bg</item>
+        <item name="colorSurface">@color/cie_bg_card</item>
+        <item name="colorOnSurface">@color/cie_text</item>
+    </style>
+</resources>

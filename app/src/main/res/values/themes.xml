@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.CIELedger" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/cie_violet</item>
+        <item name="colorOnPrimary">@color/cie_text</item>
+        <item name="colorPrimaryContainer">@color/cie_violet_dark</item>
+        <item name="colorSecondary">@color/cie_green</item>
+        <item name="colorOnSecondary">@color/cie_text</item>
+        <item name="android:windowBackground">@color/cie_bg</item>
+        <item name="colorSurface">@color/cie_bg_card</item>
+        <item name="colorOnSurface">@color/cie_text</item>
+        <item name="colorOnBackground">@color/cie_text</item>
+        <item name="colorError">@color/cie_red</item>
+        <item name="android:windowBackground">@color/cie_bg</item>
+        <item name="android:statusBarColor">@color/cie_bg</item>
+        <item name="android:navigationBarColor">@color/cie_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Input field style -->
+    <style name="CIEInput" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/cie_violet</item>
+        <item name="hintTextColor">@color/cie_violet_light</item>
+        <item name="boxCornerRadiusTopStart">12dp</item>
+        <item name="boxCornerRadiusTopEnd">12dp</item>
+        <item name="boxCornerRadiusBottomStart">12dp</item>
+        <item name="boxCornerRadiusBottomEnd">12dp</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="CIEButton" parent="Widget.Material3.Button">
+        <item name="cornerRadius">14dp</item>
+        <item name="backgroundTint">@color/cie_violet</item>
+        <item name="android:textColor">@color/cie_text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Bottom nav -->
+    <style name="CIEBottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="backgroundTint">@color/cie_bg_card</item>
+        <item name="itemIconTint">@color/bnv_selector</item>
+        <item name="itemTextColor">@color/bnv_selector</item>
+        <item name="itemRippleColor">#206C3DD3</item>
+    </style>
+
+    <!-- Circle shape for avatar -->
+    <style name="CircleShape" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
